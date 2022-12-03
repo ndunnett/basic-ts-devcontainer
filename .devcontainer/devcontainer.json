@@ -1,0 +1,34 @@
+{
+  "name": "TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:16-bullseye",
+  "hostRequirements": {
+    "cpus": 1,
+    "memory": "1gb",
+    "storage": "1gb"
+  },
+  "onCreateCommand": {},
+  "updateContentCommand": {},
+  "postCreateCommand": {},
+  "postStartCommand": {},
+  "postAttachCommand": {},
+  
+  // Port forwarding
+  // https://containers.dev/implementors/json_reference/#port-attributes
+  // "portsAttributes": {
+  //   "5000": {
+  //     "label": "Application"
+  //   }
+  // },
+  // "forwardPorts": [5000],
+  
+  // IDE settings
+  // https://containers.dev/implementors/json_reference/#port-attributes
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}
