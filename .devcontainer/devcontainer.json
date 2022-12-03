@@ -27,7 +27,8 @@
     "vscode": {
       "settings": {},
       "extensions": [
-        "ms-python.python"
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint"
       ]
     }
   }
